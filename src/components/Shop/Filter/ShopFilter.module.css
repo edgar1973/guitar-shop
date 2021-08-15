@@ -1,0 +1,54 @@
+.filter_block{
+  width: 23%;
+  background: #1F1F1F;
+  height: 500px;
+  padding: 40px;
+  margin-right: 25px;
+}
+.title{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.filter_block hr{
+  width: 100%;
+  color: white;
+  height: 1px;
+  content: '';
+  background: white;
+  margin: 10px 0 10px 0;
+}
+.filter{
+  margin-top: 30px;
+  color: white;
+}
+.filter ul li{
+  position: relative;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: 1px solid white;
+  margin-bottom: 20px;
+}
+.filter ul li:hover{
+  cursor: pointer;
+}
+.filter ul li:before{
+  position: absolute;
+  content: '';
+  background: white;
+  width: 10px;
+  height: 2px;
+  right: 10px;
+  top: 20px;
+  transform: rotate(-40deg);
+}
+.filter ul li:after{
+  position: absolute;
+  content: '';
+  background: white;
+  width: 10px;
+  height: 2px;
+  right: 16px;
+  top: 20px;
+  transform: rotate(40deg);
+}

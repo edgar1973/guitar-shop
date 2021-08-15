@@ -1,0 +1,67 @@
+.item{
+  transition: .5s;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.685);
+}
+.item:hover{
+  transform: translateY(-7px);
+  transition: .5s;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.685);
+}
+.item img{
+  width: 100%;
+}
+.name{
+  margin-top: 30px;
+  font-size: 18px;
+  padding: 0 20px;
+  color: #E65636;
+}
+.price{
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #afaeadad;
+}
+.button_block{
+  font-weight: bold;
+  display: flex;
+}
+.item .details{
+  transition: .3s;
+  width: 40%;
+  height: 35px;
+  font-size: 20px;
+  opacity: .8;
+  background: #1F1F1F;
+  color: white;
+  border: 1px solid #1F1F1F;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.item .cart{
+  transition: .5s;
+  width: 40%;
+  height: 35px;
+  font-size: 20px;
+  opacity: .8;
+  background: linear-gradient(135deg, rgb(255, 94, 6) 48%, rgb(247, 175, 0));
+  color: black;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.item .details:hover, .item .cart:hover{
+  transition: .3s;
+  box-shadow: 0 0 10px black;
+}
